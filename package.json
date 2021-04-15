@@ -1,0 +1,26 @@
+{
+  "name": "itunes",
+  "version": "1.0.0",
+  "description": "Itunes app created with react and express",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon server.js"
+  },
+  "author": "Megan Pieterse",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "helmet": "4.4.1",
+    "node-fetch": "2.6.1",
+    "path": "0.12.7",
+    "request": "2.81.0",
+    "requests": "0.3.0"
+  },
+  "devDependencies": {
+    "chai": "4.3.4",
+    "mocha": "8.3.2",
+    "nodemon": "2.0.7"
+  }
+}
